@@ -6,9 +6,14 @@
 ## Install
 
 #### JS Client
-For the model layer on the front end we use JSData. The reasoning behind is to be consistent on the fron end data model layer that can be used by different UI frameworks. For http request-response we js-data-http which is the HTTP adapter for JSData.
+For the model layer on the front end we use `js-data`. The reasoning behind is to be consistent on the fron end data model layer that can be used by different UI frameworks. For http request-response we `js-data-http` which is the HTTP adapter for JSData.
 ```bash
 npm install js-data js-data-http
+```
+
+Or you can also use the npm package on the root on this repo.
+```bash
+npm install
 ```
 
 To quickly serve static content from your folder, `serve` can be used. If a directory contains an index.html, `serve` will automatically render it instead of serving directory contents, and will serve any .html file as a rendered page instead of file's content as plaintext.

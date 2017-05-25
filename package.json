@@ -1,0 +1,33 @@
+{
+  "name": "client-server-jsdata",
+  "version": "1.0.0",
+  "description": "Testing JSData with JSON-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "js-data":"^3.0.0-beta.5",
+    "js-data-http": "^3.0.0-beta.5",
+    "json-server": "0.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarcia-indigoag/jsdata-json.git"
+  },
+  "keywords": [
+    "jsdata",
+    "json-server",
+    "UI",
+    "model",
+    "fake",
+    "API",
+    "server"
+  ],
+  "author": "Alex Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agarcia-indigoag/jsdata-json/issues"
+  },
+  "homepage": "https://github.com/agarcia-indigoag/jsdata-json#readme"
+}
